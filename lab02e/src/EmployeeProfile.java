@@ -33,10 +33,10 @@ public class EmployeeProfile {
         final String CLOSE_P = "</p>";
 
         // variables
-        String name = "";
-        int age = 0;
-        int salary = 0;
-        String comments = "";
+        String name;
+        int age;
+        int salary;
+        String comments;
 
         // Prompt for Values - COMMENT THESE OUT FOR HTML OUTPUT
         System.out.println("Please type the name of the employee: ");
