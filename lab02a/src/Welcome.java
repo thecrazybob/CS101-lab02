@@ -5,6 +5,7 @@ import java.util.Scanner;
  * Instructions for Lab02a are in INSTRUCTIONS.md file located in the root directory of lab02a
  * Revisions can be seen on the following GitHub URL: https://github.com/thecrazybob/CS101-lab02
  * Style Guidelines: http://www.cs.bilkent.edu.tr/~david/cs101/practicalwork/2010/styleguidelines.htm
+ * Lab Page: http://www.cs.bilkent.edu.tr/~david/cs101/assignments/lab02/
  * 
  * @author Mohammed Sohail
  * @version 11/11/2020
@@ -32,9 +33,9 @@ public class Welcome {
         // program code
 
         // Print out strings
-        System.out.println("Hello");
-        System.out.println("yourname");
-        System.out.println("welcome to Java!");
+        System.out.print("Hello ");
+        System.out.print("yourname");
+        System.out.println(", welcome to Java!");
 
         /*
         ---
@@ -43,16 +44,14 @@ public class Welcome {
         */
 
         // constants
-        final String YOURNAME;
-
-        YOURNAME = "Mohammed";
+        final String YOURNAME = "Mohammed";
 
         // program code
 
         // Print out strings with constant YOURNAME
-        System.out.println("Hello");
-        System.out.println(YOURNAME);
-        System.out.println("welcome to Java!");
+        System.out.print("Hello ");
+        System.out.print(YOURNAME);
+        System.out.println(", welcome to Java!");
 
         /*
         ---
@@ -69,9 +68,10 @@ public class Welcome {
         // program code
 
         // Print out var yourname
-        System.out.println("Hello");
-        System.out.println(yourname);
-        System.out.println("welcome to Java!");
+        System.out.print("Hello ");
+        System.out.print(yourname);
+        System.out.println(", welcome to Java!");
+
 
         /*
         ---
@@ -93,9 +93,9 @@ public class Welcome {
         username = scan.nextLine();
 
         // Print out username
-        System.out.println("Hello");        
-        System.out.println(username);
-        System.out.println("welcome to Java!");
+        System.out.print("Hello ");        
+        System.out.print(username);
+        System.out.println(", welcome to Java!");
 
         /*
         ---
@@ -119,10 +119,11 @@ public class Welcome {
         age = scan.nextInt();
 
         // Print out var username and var age
-        System.out.println("Hello");
-        System.out.println(username);
-        System.out.println(age);
-        System.out.println("welcome to Java!");
+        System.out.print("Hello ");
+        System.out.print(username);
+        System.out.print(" ");
+        System.out.print(age);
+        System.out.println(", welcome to Java!");
 
         // Close scanner
         scan.close();
