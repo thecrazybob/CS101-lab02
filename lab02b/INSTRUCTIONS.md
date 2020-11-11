@@ -1,0 +1,1 @@
+Create another VS-Code project, "Lab02b", also in "lab02". Modify this one such that when you run it, it prints out a personalised message to the user.
